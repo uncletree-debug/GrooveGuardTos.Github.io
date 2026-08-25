@@ -1,0 +1,37 @@
+Privacy Policy
+Effective Date: August 25, 2026
+This Privacy Policy explains how [Groove Guard] ("the Bot," "we," "us," or "our") collects, uses, stores, and protects user data when added to a Discord server or interacted with by users.
+By using the Bot, you agree to the collection and use of information in accordance with this Privacy Policy.
+
+1. Information We Collect
+To provide moderation features, command tracking, and Spotify integration, the Bot accesses and processes limited information via the Discord API and Spotify API:
+Discord Identification Data: User IDs, Guild (Server) IDs, and Channel IDs to associate moderation warnings, permissions, and command execution correctly.
+User Profile Information: Usernames, Display Names, and Discriminators/Avatars strictly to format responses and display embeds within Discord.
+Server Moderation Data: Warning records, reason entries, and timeout logs created by server administrators.
+Spotify Presence Data: When invoking Spotify-related commands (e.g., checking user activity), the Bot temporarily processes publicly broadcasted Spotify Rich Presence status provided by Discord.
+
+2. How We Use Information
+We process collected data exclusively to operate, maintain, and deliver the Bot's functions. Specifically:
+To log and display user warnings within individual Discord servers.
+To verify command permissions (e.g., verifying if a user has kick/ban authority).
+To fetch track recommendations, play links, and album art via the Spotify API.
+We do not sell, rent, trade, or share user data or API data with third parties, data brokers, or advertisers.  
+
+3. Data Storage & Retention
+Temporary In-Memory Storage: Active server warnings and operational state are maintained in active memory during bot operation.
+Data Persistence: Operational data is kept only as long as necessary to provide service within a server.
+Server Removal: If the Bot is removed (kicked) from a Discord server, associated server data is no longer processed or accessed.
+
+4. Third-Party Services
+The Bot interacts with third-party service APIs to process specific features:
+Discord API: Governed by the Discord Privacy Policy and Discord Developer Policy.
+Spotify Web API: Used to retrieve track metadata and recommendations. The Bot never requests, handles, or stores personal Spotify account passwords, emails, or login credentials.
+
+5. User Rights & Data Deletion
+Users have the right to request deletion of any stored data associated with their Discord account.
+To request data removal, clear warning logs, or inquire about stored data, you may:
+Contact the Bot developer directly via Discord: [NOVAFALL]
+Remove (Kick) the Bot from your Discord server.
+
+6. Changes to This Privacy Policy
+We may update our Privacy Policy periodically. Any changes will be published by updating the "Effective Date" at the top of this document. Continued use of the Bot after changes constitutes acceptance of the updated policy.
